@@ -6,11 +6,11 @@ img_1.setAttribute("src",img_list[random_number_1]);
 let img_2 = document.querySelector(".img2");
 img_2.setAttribute("src",img_list[random_number_2]);
 if (random_number_1 > random_number_2){
-    document.querySelector("spam").textContent="Player_1";
+    document.querySelector("h1").innerHTML="Congratulation! Player_1 Won the Game";
 }
 else if (random_number_1 == random_number_2){
     document.querySelector("h1").innerHTML="Match Was Draw";
 }
 else{
-    document.querySelector("spam").textContent="Player_2";
+    document.querySelector("h1").innerHTML="Congratulation! Player_2 Won the Game";
 }
